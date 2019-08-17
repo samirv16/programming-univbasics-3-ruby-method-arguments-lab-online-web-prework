@@ -3,11 +3,11 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
-def introduction("sam")
+def introduction(name = "sam")
   puts "Hi, my name is #{name}"
 end
 
-def introduction_with_language_optional(name,language ="Ruby")
+def introduction_with_language_optional(name,language = "Ruby")
   puts "Hi my name is #{name}. I am learning to code with #{language}."
 end
 
